@@ -7,7 +7,7 @@ class Task1
       File.open($PATH1, 'r') do |file|
             file.each_line do |line|
               if line
-                check_str(line)
+                  check_str(line)
               end
           end
       end
